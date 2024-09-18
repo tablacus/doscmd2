@@ -118,5 +118,5 @@ GET_MAPPER_RAM:			;新たに64KB RAMを取得する
 
 ; Version
 TITLE:
-	DB	"Tablacus DOS cmd 2 v0.02"
+	DB	"Tablacus DOS cmd 2 v0.10"
 	DB	00DH,00AH,'$'

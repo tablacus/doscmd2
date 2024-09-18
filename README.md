@@ -14,16 +14,16 @@ Tablacus DOS cmd 2はBASIC領域を移動させないので`NEW`状態にはな�
 
 ## DOSコマンドの実行
 
-引数「BAR」でFOO.COMを実行する場合は以下のようにします。実行ファイルの指定には必ず拡張子の「.com」も必要です。
+引数「BAR」でFOO.COMを実行する場合は以下のようにします。v0.10から実行ファイルの指定に拡張子の「.com」が不要になりました。
 
 ```bas
-CMD "FOO.COM BAR"
+CMD "FOO BAR"
 ```
 
 COMファイルの指定に階層ディレクトリを指定することができます。
 
 ```bas
-CMD "A:\DIR\FOO.COM BAR"
+CMD "A:\DIR\FOO BAR"
 ```
 ## サンプル
 
